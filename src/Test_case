@@ -1,0 +1,29 @@
+********** Test Case#1 **********
+	1.Navigate to https://calculator.s3.amazonaws.com/index.html
+	2.Check page title
+	3.Verify Monthly bill is showing $0.00.
+---------------------------------------------------------------------------	
+
+********** Test Case#2 **********
+	1.Navigate to https://calculator.s3.amazonaws.com/index.html
+	2.Add a EC2 instance
+	3.Verify Description is blank:
+		- 1 instance
+		- 100 usage
+		- % Utilized/Month
+		- OS -> Linux on t1.micro
+		- On-Demand (No Contract)
+		- Monthly price should match with other tab total.
+---------------------------------------------------------------------------	
+
+********** Test Case#3 **********
+	1.Click on Clear Form
+	2.Verify alert is displayed and text is 
+			-"Please confirm
+			- Are you sure you want to clear all entries in this  sservice form?"
+	3.Click on OK
+	4.Verify that form is cleared.
+----------------------------------------------------------------------------	
+	
+	
+		
